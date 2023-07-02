@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,button,a {
+    font-family: 'roboto', sans-serif;
+}
+
+h5.card-title {
+    line-height: 24px;
+}
+
+input#exampleInputPassword1::placeholder,
+input#exampleInputEmail1::placeholder {
+    color: #707070;
+}
+
+.bg-verde {
+    --bs-bg-opacity: 1;
+    background-color: #28A745;
+    color: white;
+}
+
+.text-verde {
+    color: #28A745;
+}
+
+.text-negro {
+    color:#212529;
+}
+
+.text-gris {
+    color:#707070;
+}
+
+.product-prices {
+    border-top: 1px solid #DDDDDD;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 768px ){
+    .card.mb-5 {
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+footer {
+    flex-direction: column;
+}

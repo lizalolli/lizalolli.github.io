@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+header img {
+    width: 100%;
+}
+
+.container section.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 150px;
+} 
+
+.container section.intro .intro-text{
+    width: 475px;
+} 
+
+.container section.intro .intro-text p{
+    width: 475px;
+    font-size: 16px;
+    font-weight: 100;
+} 
+
+.container section.intro .intro-text p:last-child{
+    margin-top: 18px;
+} 
+
+.container section.intro img{
+    width: 399px;
+} 
+
+.container section.caract{
+    background-color: #1E1A13;
+    opacity: 0.98;
+    padding: 74px 0;
+} 
+
+.container section.caract h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+} 
+
+.container section.caract .caract-icon-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+} 
+
+.container section.caract .caract-icon-container .caract-icon-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+} 
+
+.container section.caract .caract-icon-container .caract-icon-box p{
+    margin-top: 17px;
+    font-size: 25px;
+    font-weight: 100;
+} 
+
+.container section.gallery{
+    display: flex;
+    justify-content: space-between;
+    padding: 73px 150px;
+} 
+
+.container section.gallery img{
+    width: 316px;
+    height: 216px;
+} 
+
+footer {
+    background-color: #1E1A13;
+    opacity: 0.98;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    padding: 39px 0;
+}
