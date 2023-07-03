@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;  
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #1c1c1c;
+}
+
+h1,h2,h3,h4,h5,h6,a,p {
+    margin: 0;
+}
+
+h1,h2,h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+}
+
+h5 {
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+/* base styles */
+
+.bg-turquoise {
+    background-color: #3AA6B9;
+}
+
+.bg-mint {
+    background-color: #C1ECE4;
+}
+
+.bg-pink {
+    background-color: #fdacf4;
+}
+
+.bg-light-pink {
+    background-color: #FFD0D0;
+}
+
+.txt-turquoise {
+    color: #3AA6B9;
+}
+
+.txt-turquoise:hover {
+    color: #1a626f;
+}
+
+.txt-pink {
+    color: #fdacf4;
+}
+
+.txt-white {
+    color: #FFF;
+}
+
+.txt-black {
+    color: #1c1c1c;
+}
+
+/* component styles */
+
+
+nav .nav-item:hover, nav .nav-link:hover{
+   text-decoration: underline; 
+}
+
+nav .navbar-brand:hover, .txt-black:hover {
+    color: #AF0171;
+}
+
+header {
+    background-image: url('/assets/images/pc-background.jpg');
+    background-size: cover;
+    background-position-y: -230px;
+    background-repeat: no-repeat;
+}
+
+#portafolio .card{
+    background-color: transparent;
+}
+
+#portafolio .technology {
+    display: flex;
+    align-items: center;
+}
+
+#portafolio .technology i{
+    margin-right: 8px;
+}
+
+#portafolio .card {
+    border: none;
+}
+
+#portafolio img {
+    border-radius: 8px;
+    min-height: 250px;
+}
+
+/* mobile */
+
+@media screen {
+    header {
+        background-position: center;
+    }
+}

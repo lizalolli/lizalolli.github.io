@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Liza Lolli</title>
+        <script src="https://kit.fontawesome.com/5a7a325a9d.js" crossorigin="anonymous"></script>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -16,9 +17,9 @@
     <body>
         <header>
             <!-- NAV -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Liz_Lolli_</a>
                     <button
                         class="navbar-toggler"
                         type="button"
@@ -32,210 +33,338 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active"
-                                    aria-current="page"
-                                    href="#"
-                                    >Home</a
-                                >
+                            <li class="nav-item fw-light">
+                                <a class="nav-link" href="#sobremi">Sobre mí</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                            <li class="nav-item fw-light">
+                                <a class="nav-link" href="#estudios">Estudios</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
+                            <li class="nav-item fw-light">
+                                <a class="nav-link" href="#skills">Skills</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled">Disabled</a>
+                            <li class="nav-item fw-light">
+                                <a class="nav-link" href="#experiencia">Experiencia</a>
+                            </li>
+                            <li class="nav-item fw-light">
+                                <a class="nav-link" href="#portafolio">Potafolio</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <!-- TITLE AND CONTENT -->
+            <div class="">
+                <div class="container py-5" id="sobremi">
+                    <div class="row d-flex align-items-center my-5">
+                        <div class="mt-5">
+                            <h1 class="mb-3">¡Hola! Soy Liz,</h1>
+                            <p class="fw-medium">empecé mi carrera como diseñadora en 2019, siempre enfocada en desarrollarme como front-end. Me he desempeñado en diferentes labores relacionadas principalmente al uso de HTML, CSS y Javascript, como creación de mailings, front de interfaces y desarrollo de AB Test en Cencosud, donde me encuentro trabajando actualmente. En 2021 fui parte de la beca “Code your future” de Globant donde me certifiqué como Web Front-end Developer y tuve la oportunidad de seguir desarrollando mis habilidades en html y css, además mejorar en Javascript y aprender a trabajar con React.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
-        <!-- TITLE AND CONTENT -->
-        <h1>Este es mi cv.</h1>
-        <a href="html/index.html">html</a>
-        <a href="css/index.html">css</a>
-        <a href="bootstrap/index.html">bootstrap</a>
-        <a href="flex/index.html">flex</a>
-        <!-- CARDS -->
+        <!-- SKILLS -->
+        <div class="container my-5" id="skills">
+            <h2 class="text-center mb-5">Mis skills_</h2>
+            <p class="text-center">html | css | flex | bootstrap | sass | javascript | react | salesforce</p>
+        </div>
+        <!-- ESTUDIOS Y EXPERIENCIA -->
         <div class="container">
-            <h2>Mis trabajos</h2>
-            <div class="row gx-3 card-group">
-                <!-- Card 1 -->
-                <div class="col-12 col-md-4">
-                <div class="card mb-5">
-                    <img
-                        src="assets/images/img1.jpeg"
-                        class="card-img-top"
-                        alt="..."
-                    />
-                    <div class="card-body mb-3">
-                        <h5 class="card-title product-title text-negro fw-light fs-5">
-                            Plumón Coral Fleece estampado en modelo y tamaño a
-                            elección
-                        </h5>
-                        <p class="card-text product-description text-gris fw-light mb-0">
-                            Plumones Manolino
-                        </p>
-                        <div class="product-direction d-flex flex-direction-column">
-                            <i class="fa-sharp fa-solid fa-location-dot me-2 mt-1" style="color: #707070;"></i>
-                            <p class="card-text product-adress text-gris fw-light mb-0">
-                                9191 Avenida Vitacura, Chile
+            <div class="row">
+                <!-- ESTUDIOS -->
+                <div class="col-12 col-lg-6" id="estudios">
+                    <h2 class="">Mis estudios_</h2>
+                    <div class="container-estudios mt-5">
+                        <!-- 1 -->
+                        <div class="estudios-box mb-5">
+                            <div class="estudios-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Fullstack developer</h5>
+                                <h6 class="fst-italic ms-3">- Desafío Latam</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                Mayo 2023 - Mayo 2024
+                            </p>
+                            <p class="description">
+                                Realización de diversos proyectos enfocados en el desarrollo utilizando HTML, CSS, Javascript y React.
+                            </p>
+                        </div>
+                        <!-- 2 -->
+                        <div class="estudios-box mb-5">
+                            <div class="estudios-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Frontend developer</h5>
+                                <h6 class="fst-italic ms-3">- Acámica</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                Marzo 2021 - Febrero 2022
+                            </p>
+                            <p class="description">
+                                Realización de diversos proyectos enfocados en el desarrollo utilizando HTML, CSS, Javascript y React.
+                            </p>
+                        </div>
+                        <!-- 3 -->
+                        <div class="estudios-box mb-5">
+                            <div class="estudios-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Diseño UX UI</h5>
+                                <h6 class="fst-italic ms-3">- Desafío Latam</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                Abril 2019 - Febrero 2020
+                            </p>
+                            <p class="description">
+                                Realización de 4 proyectos divididos por módulos enfocados en HTML, CSS, Javascript y React.                            </p>
+                        </div>
+                        <!-- 4 -->
+                        <div class="estudios-box mb-5">
+                            <div class="estudios-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Diseño gráfico</h5>
+                                <h6 class="fst-italic ms-3">- Duoc UC</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                2015 - 2018
+                            </p>
+                        </div>
+                        <!-- 5 -->
+                        <div class="estudios-box mb-5">
+                            <div class="estudios-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Ilustración</h5>
+                                <h6 class="fst-italic ms-3">- Duoc UC</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                2012 - 2015
+                            </p>
+                        </div>
+                        <!-- 6 -->
+                        <div class="estudios-box mb-5">
+                            <div class="estudios-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Pedagogía en Artes Plásticas</h5>
+                                <h6 class="fst-italic ms-3">- Universidad de Playa Ancha</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                2009 - 2011
                             </p>
                         </div>
                     </div>
-                    <div class="card-body product-prices d-flex px-0 mx-3">
-                        <p class="ms-auto text-gris fw-light mb-0">$45.990</p>
-                        <h6 class="text-verde ms-3 fw-medium fs-5 mb-0">$22.990</h6>
-                    </div>
                 </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="col-12 col-md-4">
-                <div class="card mb-5">
-                    <img
-                        src="assets/images/img2.jpeg"
-                        class="card-img-top"
-                        alt="..."
-                    />
-                    <div class="card-body mb-3">
-                        <h5 class="card-title product-title text-negro fw-light fs-5">
-                            Entrada para compartir + platos de fondo + postres + bebestibles
-                        </h5>
-                        <p class="card-text product-description text-gris fw-light mb-0">
-                            V for Vegan
-                        </p>
-                        <div class="product-direction d-flex flex-direction-column">
-                            <i class="fa-sharp fa-solid fa-location-dot me-2 mt-1" style="color: #707070;"></i>
-                            <p class="card-text product-adress text-gris fw-light mb-0">
-                                777 Jesse Pinkman, Chile
+                <!-- EXPERIENCIA -->
+                <div class="col-12 col-lg-6" id="experiencia">
+                    <h2 class="">Mi experiencia_</h2>
+                    <div class="container-experiencia mt-5">
+                        <!-- 1 -->
+                        <div class="experiencia-box mb-5">
+                            <div class="experiencia-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Cencosud, SCL</h5>
+                                <h6 class="fst-italic ms-3">- Software Developer</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                Mayo 2022 - Actualidad
                             </p>
+                            <ul class="description fw-light">
+                                <li>Realización de correcciones en el sitio de paris.cl en html, css y js.</li>
+                                <li>Realización de diferentes tareas en Salesforce Business Manager.</li>
+                                <li>Trabajo en ambiente colaborativo con Gitlab.</li>
+                            </ul>
+                        </div>
+                        <!-- 2 -->
+                        <div class="experiencia-box mb-5">
+                            <div class="experiencia-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Cencosud, SCL</h5>
+                                <h6 class="fst-italic ms-3">- AB Tester</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                Septiembre 2020 - Mayo 2022
+                            </p>
+                            <ul class="description fw-light">
+                                <li>Realización de AB Test en Google Optimize utilizando HTML, CSS y Javascript (principalmente JQuery) para asegurar la mejora continua del sitio de paris.cl.</li>
+                            </ul>
+                        </div>
+                        <!-- 3 -->
+                        <div class="experiencia-box mb-5">
+                            <div class="experiencia-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Nuevo Capital, SCL</h5>
+                                <h6 class="fst-italic ms-3">- UI Front</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                Enero 2020 - Julio 2020
+                            </p>
+                            <ul class="description fw-light">
+                                <li>Realización de flujos y maquetado de interfaces, mockups y plataformas de uso interno de la empresa (uso de colaboradores).</li>
+                                <li>Diseño de mailings y posterior prototipado en HTML y CSS.</li>
+                            </ul>
+                        </div>
+                        <!-- 4 -->
+                        <div class="experiencia-box mb-5">
+                            <div class="experiencia-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Desafío Latam, SCL</h5>
+                                <h6 class="fst-italic ms-3">- Ayudante docente y generadora de contenido</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                Agosto 2019 - Septiembre 2020
+                            </p>
+                            <ul class="description fw-light">
+                                <li>Generación de contenidos que se entregarán y evaluaciones durante la carrera de UX UI.</li>
+                                <li>Trabajo con alumnos durante las clases, ayudándolos con dudas respecto al contenido, ejercicios y evaluaciones.</li>
+                                <li>Revisión de ejercicios y evaluaciones.</li>
+                            </ul>
+                        </div>
+                        <!-- 5 -->
+                        <div class="experiencia-box mb-5">
+                            <div class="experiencia-box-title d-flex align-items-center">
+                                <h5 class="fw-bold txt-pink">Banco BCI (externo), SCL</h5>
+                                <h6 class="fst-italic ms-3">- Diseñadora gráfica</h6>
+                            </div>
+                            <p class="date text-uppercase my-3">
+                                Abril 2019 - Enero 2020
+                            </p>
+                            <ul class="description fw-light">
+                                <li>Desarrollo de mockups y maquetado en HTML para mailings internos.</li>
+                                <li>Desarrollo de material gráfico para presentaciones internas .</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="card-body product-prices d-flex px-0 mx-3">
-                        <p class="ms-auto text-gris fw-light mb-0">$30.990</p>
-                        <h6 class="text-verde ms-3 fw-medium fs-5 mb-0">$12.990</h6>
-                    </div>
-                </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="col-12 col-md-4">
-                <div class="card mb-5">
-                    <img
-                        src="assets/images/img3.jpeg"
-                        class="card-img-top"
-                        alt="..."
-                    />
-                    <div class="card-body mb-3">
-                        <h5 class="card-title product-title text-negro fw-light fs-5">
-                            Evaluación integral + blanqueamiento dental led + limpieza + fluoración
-                        </h5>
-                        <p class="card-text product-description text-gris fw-light mb-0">
-                            Clínica Dental Quijada
-                        </p>
-                        <div class="product-direction d-flex flex-direction-column">
-                            <i class="fa-sharp fa-solid fa-location-dot me-2 mt-1" style="color: #707070;"></i>
-                            <p class="card-text product-adress text-gris fw-light mb-0">
-                                1342, Blanco Encalada, Chile
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-body product-prices d-flex px-0 mx-3">
-                        <p class="ms-auto text-gris fw-light mb-0">$300.000</p>
-                        <h6 class="text-verde ms-3 fw-medium fs-5 mb-0">$25.990</h6>
-                    </div>
-                </div>
-                </div>
-                <!-- Card 4 -->
-                <div class="col-12 col-md-4">
-                <div class="card mb-5">
-                    <img
-                        src="assets/images/img4.jpeg"
-                        class="card-img-top"
-                        alt="..."
-                    />
-                    <div class="card-body mb-3">
-                        <h5 class="card-title product-title text-negro fw-light fs-5">
-                            Colación para 2 personas + postre (no incluye bebidas)
-                        </h5>
-                        <p class="card-text product-description text-gris fw-light mb-0">
-                            Suricata almacen
-                        </p>
-                        <div class="product-direction d-flex flex-direction-column">
-                            <i class="fa-sharp fa-solid fa-location-dot me-2 mt-1" style="color: #707070;"></i>
-                            <p class="card-text product-adress text-gris fw-light mb-0">
-                                1071 Miguel Claro, Chile
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-body product-prices d-flex px-0 mx-3">
-                        <p class="ms-auto text-gris fw-light mb-0">$45.990</p>
-                        <h6 class="text-verde ms-3 fw-medium fs-5 mb-0">$22.990</h6>
-                    </div>
-                </div>
-                </div>
-                <!-- Card 5 -->
-                <div class="col-12 col-md-4">
-                <div class="card mb-5">
-                    <img
-                        src="assets/images/img5.jpeg"
-                        class="card-img-top"
-                        alt="..."
-                    />
-                    <div class="card-body mb-3">
-                        <h5 class="card-title product-title text-negro fw-light fs-5">
-                            Colación para 2 personas + postre (no incluye bebidas)
-                        </h5>
-                        <p class="card-text product-description text-gris fw-light mb-0">
-                            Suricata almacen
-                        </p>
-                        <div class="product-direction d-flex flex-direction-column">
-                            <i class="fa-sharp fa-solid fa-location-dot me-2 mt-1" style="color: #707070;"></i>
-                            <p class="card-text product-adress text-gris fw-light mb-0">
-                                1071 Miguel Claro, Chile
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-body product-prices d-flex px-0 mx-3">
-                        <p class="ms-auto text-gris fw-light mb-0">$4.200</p>
-                        <h6 class="text-verde ms-3 fw-medium fs-5 mb-0">$2.100</h6>
-                    </div>
-                </div>
-                </div>
-                <!-- Card 6 -->
-                <div class="col-12 col-md-4">
-                <div class="card mb-5">
-                    <img
-                        src="assets/images/img6.jpeg"
-                        class="card-img-top"
-                        alt="..."
-                    />
-                    <div class="card-body mb-3">
-                        <h5 class="card-title product-title text-negro fw-light fs-5">
-                            1, 2 o 4 tickets para Stukids. Elige sucursal
-                        </h5>
-                        <p class="card-text product-description text-gris fw-light mb-0">
-                            Stukids Centro de Eventos
-                        </p>
-                        <div class="product-direction d-flex flex-direction-column">
-                            <i class="fa-sharp fa-solid fa-location-dot me-2 mt-1" style="color: #707070;"></i>
-                            <p class="card-text product-adress text-gris fw-light mb-0">
-                                133 El tranque, Chile
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card-body product-prices d-flex px-0 mx-3 ">
-                        <p class="ms-auto text-gris fw-light mb-0">$4.000</p>
-                        <h6 class="text-verde ms-3 fw-medium fs-5 mb-0">$2.500</h6>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
-
+        <!-- PORTFOLIO AND CARDS -->
+        <div class="bg-pink py-5">
+            <div class="container" id="portafolio">
+                <h2 class="mb-5">Mis trabajos_</h2>
+                <div class="row gx-3 card-group">
+                    <!-- Card 1 HTML-->
+                    <div class="col-12 col-md-4">
+                    <div class="card mb-5">
+                        <img
+                            src="assets/images/html.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body mb-3">
+                            <h5 class="card-title product-title text-negro fs-5">
+                                <a target="_blank" href="html/index.html" class="txt-black">Currículum Vitae</a>
+                            </h5>
+                            <div class="technology">
+                                <i class="fa-solid fa-terminal" style="color: #1c1c1c;"></i>
+                                <p class="card-text product-description text-gris mb-0">
+                                    html
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Card 2 CSS-->
+                    <div class="col-12 col-md-4">
+                    <div class="card mb-5">
+                        <img
+                            src="assets/images/css.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body mb-3">
+                            <h5 class="card-title product-title text-negro fs-5">
+                                <a target="_blank" href="css/index.html" class="txt-black">Kawaii Market</a>
+                            </h5>
+                            <div class="technology">
+                                <i class="fa-solid fa-terminal" style="color: #1c1c1c;"></i>
+                                <p class="card-text product-description text-gris mb-0">
+                                    html | css
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Card 3 FLEX-->
+                    <div class="col-12 col-md-4">
+                    <div class="card mb-5">
+                        <img
+                            src="assets/images/flex.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body mb-3">
+                            <h5 class="card-title product-title text-negro fs-5">
+                                <a target="_blank" href="flex/index.html" class="txt-black">Iguana Page</a>
+                            </h5>
+                            <div class="technology">
+                                <i class="fa-solid fa-terminal" style="color: #1c1c1c;"></i>
+                                <p class="card-text product-description text-gris mb-0">
+                                    html | css
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Card BOOTSTRAP-->
+                    <div class="col-12 col-md-4">
+                    <div class="card mb-5">
+                        <img
+                            src="assets/images/bootstrap.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body mb-3">
+                            <h5 class="card-title product-title text-negro fs-5">
+                                <a target="_blank" href="bootstrap/index.html" class="txt-black">CUPPON</a>
+                            </h5>
+                            <div class="technology">
+                                <i class="fa-solid fa-terminal" style="color: #1c1c1c;"></i>
+                                <p class="card-text product-description text-gris mb-0">
+                                    html | css | bootstrap
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Card GIFOS-->
+                    <div class="col-12 col-md-4">
+                    <div class="card mb-5">
+                        <img
+                            src="assets/images/gifos.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body mb-3">
+                            <h5 class="card-title product-title text-negro fs-5">
+                                <a target="_blank" href="https://r8pbt.csb.app/" class="txt-black">Gifos</a>
+                            </h5>
+                            <div class="technology">
+                                <i class="fa-solid fa-terminal" style="color: #1c1c1c;"></i>
+                                <p class="card-text product-description text-gris mb-0">
+                                    html | css | bootstrap | react
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <!-- Card DEVS UNITED-->
+                    <div class="col-12 col-md-4">
+                    <div class="card mb-5">
+                        <img
+                            src="assets/images/devsunited.png"
+                            class="card-img-top"
+                            alt="..."
+                        />
+                        <div class="card-body mb-3">
+                            <h5 class="card-title product-title text-negro fs-5">
+                                <a target="_blank" href="https://devs-united-def-final.web.app/" class="txt-black">Devs United</a>
+                            </h5>
+                            <div class="technology">
+                                <i class="fa-solid fa-terminal" style="color: #1c1c1c;"></i>
+                                <p class="card-text product-description text-gris mb-0">
+                                    html | css | bootstrap | react
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer class="text-center py-5">
+            <p class="fw-medium">Liza Gabriella Lolli Torres</p>
+            <p>lizalollitorres@gmail.com</p>
+        </footer>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
